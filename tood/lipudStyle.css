@@ -22,3 +22,37 @@
 #eesti tr:nth-child(3){ /*3.rida*/
     background-color: white;
 }
+#taani{
+    width: 330px;
+    height: 210px;
+    border: 1px solid lightgray;
+    border-spacing:0;
+    position: absolute;
+    top: 300px;
+    left: 40%;
+}
+#taani tr:nth-child(1) td:nth-child(1),
+#taani tr:nth-child(3) td:nth-child(1){
+    /*1.rida 1.lahter ja 3.rida 1.lahter*/
+background-color: red;
+    width: 65px;
+}
+#taani tr:nth-child(2){
+    background-color: white;
+    height: 45px;
+}
+#taani tr:nth-child(1) td:nth-child(3),
+#taani tr:nth-child(3) td:nth-child(3){
+    /*1.rida 3.lahter ja 3.rida 3.lahter*/
+    background-color: red;
+    width: 210px;
+}
+#taani tr:nth-child(1) td:nth-child(2),
+#taani tr:nth-child(3) td:nth-child(2){
+    /*1.rida 2.lahter ja 3.rida 2.lahter*/
+    background-color: white;
+
+}
+#taani td{
+    border: 0px solid lightgray;
+}
