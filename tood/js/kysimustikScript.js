@@ -6,17 +6,18 @@ function nimiLugemineKastist(){
     vastus1.style.backgroundColor="lightgreen";
 
     return nimi.value;
-}
-//radio valikud
+}//radio valikud
 function radioValik(){
     let vastus2=document.getElementById("vastus2");
     let spotify=document.getElementById("spotify");
     let raadio=document.getElementById("raadio");
     let vinyl=document.getElementById("vinüülplaat");
+    let pilt=document.getElementById("pilt");
 
     let valik="";
     if(spotify.checked){
         valik=spotify.value;
+        pilt.src="../images/smile.png";
     } else if(raadio.checked){
         valik=raadio.value;
     } else if(vinyl.checked){
@@ -30,6 +31,7 @@ function radioValik(){
 
     return valik;
 }
+
 //checkbox valik
 function checkboxValik(){
     let vastus3=document.getElementById("vastus3");

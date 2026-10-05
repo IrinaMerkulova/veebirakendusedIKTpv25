@@ -1,0 +1,30 @@
+img#randomPilt{ /*id=randomPilt*/
+    border: 2px solid lawngreen;
+    border-radius: 50%;
+    width:300px;
+}
+input[type=button]{
+    border: 2px solid lawngreen;
+    border-radius: 10px;
+    padding:5px;
+    background-color: greenyellow;
+}
+div#vastus{
+    border: 2px solid lawngreen;
+    position: absolute;
+    top: 450px;
+    left: 200px;
+    padding:5px;
+    background-color: greenyellow;
+}
+select{
+
+}
+label:hover{ /*hiire liigutus*/
+    font-weight: bold;
+    background-color: lawngreen;
+}
+section#valik2{
+    border: 2px solid lawngreen;
+    margin-top: 30px;
+}
