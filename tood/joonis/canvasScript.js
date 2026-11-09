@@ -72,3 +72,12 @@ function pilt() {
         }
     }
 }
+function koik(){
+    puhasta();
+    joon();
+    kolmnurk();
+    ristkylik();
+    ring();
+    pilt();
+}
+// lisa wp sõnastiku vähemalt 5 meetodid mis oli täna kasutatud
